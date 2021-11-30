@@ -13,7 +13,7 @@ int main() {
 	printf("Enter what the grades are over e.g over 100, over 10, over50: ");
 	scanf("%f", &score4);
 	
-	if (score1, score2, score3 > score4) {
+	if (score1 > score4 || score2>score4 || score3>score4) {
 		printf("The grades cannot be greater than what it is scored over.\n");
 		goto loop;
 	}
