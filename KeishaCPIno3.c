@@ -7,7 +7,7 @@ int main()
 	printf("Enter a letter between A to J: ");
 	scanf("%c", &c);
 	
-	if (c <= 'J' || c<= 'j'){
+	if ((c <= 'j'&&c>='a')||c<= 'J'){
 	   for(d=6; d>=1; --d)
 	   if(d<=6){
 	   ++c;
