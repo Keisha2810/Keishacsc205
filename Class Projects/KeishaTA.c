@@ -48,10 +48,21 @@ int main()
   	for(d=1; d<=12; ++d)
   		if(d%3==0){
   		c = ++c;
+  		if(c>'Z'&&c<'a'){
+  		c='A';}
+  		if(c>'z'){
+  		c='a';}
   		c = ++c;
+  		if(c>'Z'&&c<'a'){
+  		c='A';}
+  		if(c>'z'){
+  		c='a';}
   		c = ++c;
+  		if(c>'Z'&&c<'a'){
+  		c='A';}
+  		if(c>'z'){
+  		c='a';}
            	printf("The next character is %c ", c);
-           	printf("ASCII value is %d ",c);
            	printf("The size is %lu ",sizeof(c));
            	printf("\n");}
            	else{
